@@ -9,6 +9,7 @@ class ShoppingList extends StatefulWidget {
 }
 
 class _ShoppingListState extends State<ShoppingList> {
+  
   @override
   Widget build(BuildContext context) {
     return BlocProvider.value(value: BlocProvider.of<CounterCubit>(context),
